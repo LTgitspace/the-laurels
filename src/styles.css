@@ -13,3 +13,40 @@
 body, html {
   cursor: url('/cursor.svg') 8 8, auto;
 }
+
+/* Enhanced global override to ensure markdown tables render with visible borders */
+::ng-deep markdown table {
+  border-collapse: collapse !important;
+  border: 3px solid #666 !important;
+  background: #fff !important;
+  width: 100% !important;
+}
+
+::ng-deep markdown table th,
+::ng-deep markdown table td {
+  border: 2px solid #888 !important;
+  padding: 10px 14px !important;
+  background: #fff !important;
+  display: table-cell !important;
+}
+
+::ng-deep markdown table th {
+  border-bottom: 3px solid #555 !important;
+  background: #f0f2f5 !important;
+  font-weight: 700 !important;
+  color: #333 !important;
+}
+
+::ng-deep markdown table tr:nth-child(even) td {
+  background: #fafbfc !important;
+}
+
+/* Reset any conflicting table styles */
+::ng-deep markdown table,
+::ng-deep markdown table * {
+  box-sizing: border-box !important;
+}
+
+::ng-deep markdown table tr {
+  display: table-row !important;
+}
