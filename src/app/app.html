@@ -13,20 +13,17 @@
       </a>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-      <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
+      <li nz-submenu nzOpen nzTitle="Home" nzIcon="home">
         <ul>
           <li nz-menu-item nzMatchRouter>
             <a routerLink="/welcome">Welcome</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a>Monitor</a>
-          </li>
-          <li nz-menu-item nzMatchRouter>
-            <a>Workplace</a>
+            <a>Overview</a>
           </li>
         </ul>
       </li>
-      <li>
+      <li nz-submenu nzOpen nzTitle="Worklog" nzIcon="schedule">
         <ul>
           <li nz-menu-item nzMatchRouter>
             <a routerLink="/worklog">Work Log</a>
