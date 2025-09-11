@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Force ng-zorro-antd sider transition to 0.5s */
+::ng-deep .ant-layout-sider {
+  transition: all 2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Optionally, also target the collapsed state for extra robustness */
+::ng-deep .ant-layout-sider-collapsed {
+  transition: all 2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+body, html {
+  cursor: url('/cursor.svg') 16 16, auto;
+}
