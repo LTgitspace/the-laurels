@@ -30,7 +30,7 @@ pre: " <b> 1.1. </b> "
   * Storage
   * Networking 
   * Database
-  * ...
+  <br>
 
 * Successfully created and configured an AWS Free Tier account.
 
@@ -40,16 +40,5 @@ pre: " <b> 1.1. </b> "
   * Access Key
   * Secret Key
   * Default Region
-  * ...
+  <br>
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
