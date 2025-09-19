@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class Wlweek3 implements OnInit {
   content = signal<string>('Loading markdown...');
-  private readonly mdPath = '/week2.md'; // adjust path if needed
+  private readonly mdPath = '/week3.md'; // adjust path if needed
 
   constructor(private http: HttpClient) {}
 
@@ -35,3 +35,4 @@ export class Wlweek3 implements OnInit {
     return out;
   }
 }
+
