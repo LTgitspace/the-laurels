@@ -7,6 +7,11 @@ import { Wlweek5 } from './pages/worklog/week5/wlweek5';
 import { Wlweek6 } from './pages/worklog/week6/wlweek6';
 import { Wlweek7 } from './pages/worklog/week7/wlweek7';
 import { Wlweek8 } from './pages/worklog/week8/wlweek8';
+import {Cost} from './pages/proposal/cost/cost';
+import {Idea} from './pages/proposal/idea/idea';
+// import * as path from 'node:path';
+import {Projoverview} from './pages/proposal/overview/projoverview';
+import {Projtechstack} from './pages/proposal/techstack/projtechstack';
 
 export const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/welcome' },
@@ -19,4 +24,8 @@ export const routes: Routes = [
   {path: 'worklogweek6', component: Wlweek6 },
   {path: 'worklogweek7', component: Wlweek7 },
   {path: 'worklogweek8', component: Wlweek8 },
-];
+  {path: 'cost', component: Cost },
+  {path: 'idea', component: Idea },
+  {path: 'projoverview', component: Projoverview},
+  {path: 'projtechstack', component: Projtechstack},
+];1

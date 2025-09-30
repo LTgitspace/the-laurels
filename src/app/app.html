@@ -18,9 +18,6 @@
           <li nz-menu-item nzMatchRouter>
             <a routerLink="/welcome">Welcome</a>
           </li>
-          <li nz-menu-item nzMatchRouter>
-            <a>Overview</a>
-          </li>
         </ul>
       </li>
       <li nz-submenu nzOpen nzTitle="Worklog" nzIcon="schedule">
@@ -54,7 +51,16 @@
       <li nz-submenu nzOpen nzTitle="Proposal" nzIcon="file-text">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a>Project overview</a>
+            <a routerLink="/projoverview">Project overview</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/idea">Main Idea</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/cost">Cost Management</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/projtechstack">Tech Stack</a>
           </li>
         </ul>
       </li>

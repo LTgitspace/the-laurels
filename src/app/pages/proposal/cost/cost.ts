@@ -6,12 +6,12 @@ import { HttpClient } from '@angular/common/http';
   selector: 'app-markdown-display',
   standalone: true,
   imports: [MarkdownModule],
-  templateUrl: './wlweek1.html',
-  styleUrl: './wlweek1.css'
+  templateUrl: './cost.html',
+  styleUrl: './cost.css'
 })
-export class Wlweek1 implements OnInit {
+export class Cost implements OnInit {
   content = signal<string>('Loading markdown...');
-  private readonly mdPath = '/week1.md'; // adjust path if needed
+  private readonly mdPath = '/cost.md'; // adjust path if needed
 
   constructor(private http: HttpClient) {}
 
