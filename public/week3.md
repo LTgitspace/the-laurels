@@ -1,10 +1,11 @@
 ---
-title: "Week 2 Worklog"
-date: "`r Sys.Date()`"
+title: "Week 3 Worklog"
+date: "2025-09-28"
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
+
 
 
 
@@ -21,11 +22,10 @@ pre: " <b> 1.1. </b> "
 | Wed |  | 11/09/2025 | 14/09/2025      |                    |
 | Thu |                          			        | 11/09/2025 | 14/09/2025      |                    |
 | Fri |  | 11/09/2025 | 14/09/2025      |                    |
-| Sat | 																			 | 11/09/2025 | 14/09/2025	     | 					              |
+| Sat | 												 | 11/09/2025 | 14/09/2025	     | 				      |
 
 
 ### Week 3 Achievements:
 
 * Knowing how to create a full web-application with https connection.
 * Knowledge about other aws services.
-
